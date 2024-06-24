@@ -1,5 +1,5 @@
 - name: Say Hello
-  hosts: localhost
+  hosts: all
   sources:
     - name: range
       ansible.eda.range:
